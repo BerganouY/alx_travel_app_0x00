@@ -29,8 +29,8 @@ alx_travel_app/
 
 ```bash
 # Create the main project
-django-admin startproject alx_travel_app
-cd alx_travel_app
+django-admin startproject alx_travel_ap
+cd alx_travel_ap
 
 # Create the listings app
 python manage.py startapp listings
@@ -138,7 +138,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'alx_travel_app.urls'
+ROOT_URLCONF = 'alx_travel_ap.urls'
 
 TEMPLATES = [
     {
@@ -156,7 +156,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'alx_travel_app.wsgi.application'
+WSGI_APPLICATION = 'alx_travel_ap.wsgi.application'
 
 # Database Configuration
 DATABASES = {
@@ -396,7 +396,7 @@ env/
 ENV/
 
 # Environment Variables
-alx_travel_app/.env
+alx_travel_ap/.env
 .env.local
 .env.production
 
@@ -527,9 +527,9 @@ import os
 from celery import Celery
 
 # Set the default Django settings module for the 'celery' program.
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'alx_travel_app.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'alx_travel_ap.settings')
 
-app = Celery('alx_travel_app')
+app = Celery('alx_travel_ap')
 
 # Using a string here means the worker doesn't have to serialize
 # the configuration object to child processes.

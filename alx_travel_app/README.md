@@ -35,7 +35,7 @@ A comprehensive Django REST API for managing travel listings, bookings, and revi
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/alx_travel_app.git
-   cd alx_travel_app
+   cd alx_travel_ap
    ```
 
 2. **Create and activate virtual environment**
@@ -85,12 +85,12 @@ python manage.py runserver
 
 ### Celery Worker (in separate terminal)
 ```bash
-celery -A alx_travel_app worker --loglevel=info
+celery -A alx_travel_ap worker --loglevel=info
 ```
 
 ### Celery Beat (for scheduled tasks, in separate terminal)
 ```bash
-celery -A alx_travel_app beat --loglevel=info
+celery -A alx_travel_ap beat --loglevel=info
 ```
 
 ## API Documentation

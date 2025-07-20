@@ -14,7 +14,7 @@ env/
 ENV/
 
 # Environment Variables
-.env
+../alx_travel_ap/.env
 .env.local
 .env.production
 
